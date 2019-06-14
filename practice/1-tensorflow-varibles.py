@@ -13,9 +13,9 @@ matrix = tf.zeros([3,4], tf.int32, name='Matrix_zeros')
 print(matrix)
 
 
-#mult = placeholder*constant
-#result =  session.run(mult,feed_dict={placeholder:[[15,10,3]]})
-#print(result)
+mult = placeholder*constant
+result =  session.run(mult,feed_dict={placeholder:[[15,10,3]]})
+print(result)
 
 A = tf.placeholder(tf.float32, shape=(2,2))
 B = tf.placeholder(tf.float32, shape=(2,3))
