@@ -61,6 +61,11 @@ Ahora instala los requerimientos para el proyecto
 ```shell
 pip install -r requirements.txt
 ```
+Finalmente instala el kernel de Jupyter dentro del virtualenv
+```shell
+ipython kernel install --user --name=venv
+```
+
 ## Estructura del proyecto
 
 ```yaml
