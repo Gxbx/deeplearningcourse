@@ -83,7 +83,11 @@ deeplearningcourse:
 TO-DO
 
 ```
-MINST.ubyte
+- MINST
+- Titanic Survivors
+- Spanish Emojis
+
+
 ```
 ## Licencia de uso
 
@@ -94,12 +98,19 @@ Para más información consulte [LICENSE](LICENSE)
 Este curso ha sido una recopilación y/o creación de [Gabriel Eduardo Rengifo](https://www.linkedin.com/in/gabriel-eduardo-rengifo-rios-685b3384/), Asesor tecnológico para el [centro de desarrollo tecnológico CreaTIC](https://www.linkedin.com/company/cluster-creatic/) - Popayán Colombia  
 
 ## Recursos y créditos
+#### Libros
+***
+- [Deep Learning MIT Press book](https://www.deeplearningbook.org)
+- [Deep Learning with Python](http://faculty.neu.edu.cn/yury/AAI/Textbook/Deep%20Learning%20with%20Python.pdf) 
 
+#### Repositorios 
+***
 - [AMP-Tech](https://github.com/puigalex/AMP-Tech/) 
 - [TensorFlow 101](https://github.com/serengil/tensorflow-101/tree/master/python)
 - [Tensorflow ANFIS](https://github.com/tiagoCuervo/TensorANFIS)
 - [Scratch_mlp](https://github.com/omar-florez/scratch_mlp)
 - [Learning emotions whit emojis](https://github.com/omar-florez/learning_emotions_with_emojis)
+#### Perfiles
   ***
 - [@Omar-florez](https://github.com/omar-florez)
 - [@andreaOtero](https://github.com/andreaOtero)
