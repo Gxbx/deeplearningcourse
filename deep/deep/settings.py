@@ -11,21 +11,9 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
-# from keras.models import load_model
+from deep.context_processors import load_all_models
 
-# def load_model_from_path(path_model,path_weigth):
-#     loaded_model = load_model(path_model)
-#     loaded_model.load_weights(path_weigth)
-#     return loaded_model
-
-# def load_all_models():
-#     global deeModelObjs
-#     deeModelObjs = dict()
-#     deeModelObjs = {
-#         'MLP' : load_model_from_path('../../save/models', '../../save/weights/weights.epoch.hdf5'),
-#         'LSTM' : load_model_from_path('../../save/models', '../../save/weights/weights.epoch.hdf5'),
-#         'AutoEncoder' : load_model_from_path('../../save/models', '../../save/weights/weights.epoch.hdf5')
-#     }
+NN_MODELS, GRAPH = load_all_models()
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
