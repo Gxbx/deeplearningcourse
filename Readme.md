@@ -5,6 +5,9 @@ Curso desarrollado en el Centro de desarrollo tecnológico CreaTIC como acercami
 
 El curso ha sido desarrollado con una metología equilibrada entre conceptos teóricos y prácticos haciendo uso de materiales como los propuesto por el [Omar U. Florez](https://www.linkedin.com/in/omar-u-florez-35338015/), [François Chollet](https://www.linkedin.com/in/fchollet/) e [Ian Goodfellow](https://www.linkedin.com/in/ian-goodfellow-b7187213/).
 
+# Instructor 
+Este curso ha sido una recopilación y/o creación de [Gabriel Eduardo Rengifo](https://www.linkedin.com/in/gabriel-eduardo-rengifo-rios-685b3384/), Asesor tecnológico para el [Centro de desarrollo tecnológico CreaTIC](https://www.linkedin.com/company/cluster-creatic/) - Popayán Colombia  
+
 ## Contenido
 
 Conceptos básicos:
@@ -66,6 +69,20 @@ Finalmente instala el kernel de Jupyter dentro del virtualenv
 ipython kernel install --user --name=venv
 ```
 
+## Ejecutar y probar el API
+Después de habilitar el entorno virtual ejecutar
+```shell
+cd deep_api 
+python manage.py migrate
+#Cargará los modelos en una pequeña base de datos local sqlite.
+python manage.py runserver
+#Pondrá en funcionamiento el servidor local, la aplicación estará disponible
+#localhost:8000
+```
+Finalmente envíe una una imagen de las contenidas en el cartepa test
+usando un cliente API Rest como Postman
+Use el endpoint: [https://localhost:8000/api/deep/](https://localhost:8000/api/deep/) y el método POST
+
 ## Estructura del proyecto
 
 ```yaml
@@ -94,8 +111,6 @@ TO-DO
 Apache Version 2.0, January 2004
 Para más información consulte [LICENSE](LICENSE)
 
-## Instructor 
-Este curso ha sido una recopilación y/o creación de [Gabriel Eduardo Rengifo](https://www.linkedin.com/in/gabriel-eduardo-rengifo-rios-685b3384/), Asesor tecnológico para el [centro de desarrollo tecnológico CreaTIC](https://www.linkedin.com/company/cluster-creatic/) - Popayán Colombia  
 
 ## Recursos y créditos
 #### Libros
