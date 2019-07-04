@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
-from deep.context_processors import load_all_models
+from deep.context_model_init import load_all_models
 
 NN_MODELS, GRAPH = load_all_models()
 
