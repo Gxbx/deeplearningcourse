@@ -46,7 +46,7 @@ Evaluación, integración:
 - [Anaconda Distribution](https://www.anaconda.com/distribution/) 
 - [VS Code](https://code.visualstudio.com)
 
-Clona este repositorio y ejecuta la siguite lista de comandos:
+Clona este repositorio y ejecuta la siguiente lista de comandos:
 
 Usa virtual para tener un entorno de trabajo e instalar las librerías
 ```shell
