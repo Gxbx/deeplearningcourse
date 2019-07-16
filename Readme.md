@@ -3,7 +3,7 @@ Curso desarrollado en el Centro de desarrollo tecnológico CreaTIC como acercami
 
 # Acerca del curso
 
-El curso ha sido desarrollado con una metología equilibrada entre conceptos teóricos y prácticos haciendo uso de materiales como los propuesto por el [Omar U. Florez](https://www.linkedin.com/in/omar-u-florez-35338015/), [François Chollet](https://www.linkedin.com/in/fchollet/) e [Ian Goodfellow](https://www.linkedin.com/in/ian-goodfellow-b7187213/).
+El curso ha sido desarrollado con una metología equilibrada entre conceptos teóricos y prácticos haciendo uso de materiales como los propuestos por [Omar U. Florez](https://www.linkedin.com/in/omar-u-florez-35338015/), [François Chollet](https://www.linkedin.com/in/fchollet/) e [Ian Goodfellow](https://www.linkedin.com/in/ian-goodfellow-b7187213/).
 
 # Instructor 
 Este curso ha sido una recopilación y/o creación de [Gabriel Eduardo Rengifo](https://www.linkedin.com/in/gabriel-eduardo-rengifo-rios-685b3384/), Asesor tecnológico para el [Centro de desarrollo tecnológico CreaTIC](https://www.linkedin.com/company/cluster-creatic/) - Popayán Colombia  
