@@ -19,6 +19,11 @@ class deepModelViewSet(viewsets.ModelViewSet):
 from keras.models import load_model
 
 class PredictAPIView (APIView):
+    def get (self, request):
+        model = settings.NN_MODELS.get('MLP')
+        print(model.summary())
+        return Response({'success':model.summary()})
+
     def post(self, request):
         #El uso del modelo.
         model = settings.NN_MODELS.get('MLP')
