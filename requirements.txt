@@ -22,5 +22,5 @@ tensorflow==1.13.1
 tensorflow-estimator==1.13.0
 termcolor==1.1.0
 Werkzeug==0.15.4
-django==2.2.3
+django==2.2.20
 djangorestframework==3.9.4
